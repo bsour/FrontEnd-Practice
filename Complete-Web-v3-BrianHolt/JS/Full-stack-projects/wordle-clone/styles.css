@@ -45,7 +45,7 @@
     font-size: 20px;
     text-transform: uppercase;
     border: 3px solid #3b4cca;
-    font-weight: bold;
+    font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,11 +97,9 @@
     }
   }
   
-  .hidden {
-    visibility: hidden;
-  }
   
   .info-bar {
+    visibility: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,6 +109,10 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
+  }
+
+  .show {
+    visibility: visible;
   }
   
   @keyframes rainbow {
